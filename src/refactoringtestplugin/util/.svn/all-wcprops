@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util
+END
+TestMJDollyContainsUdita.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/TestMJDollyContainsUdita.java
+END
+TestMUditaContainsJDolly.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/TestMUditaContainsJDolly.java
+END
+TestMUditaSimetry.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/TestMUditaSimetry.java
+END
+ComparatorUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/ComparatorUtil.java
+END
+ComparatorLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/ComparatorLogger.java
+END
+AlloyRunJava.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/AlloyRunJava.java
+END
+JavaProjectHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/JavaProjectHelper.java
+END
+ComparePreAndPostRefactoredFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/ComparePreAndPostRefactoredFiles.java
+END
+CopyAndCompileNBFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/CopyAndCompileNBFiles.java
+END
+List_Summary_PostRefactor_Not_Compile.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/List_Summary_PostRefactor_Not_Compile.java
+END
+ProcessHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/ProcessHandler.java
+END
+TestASTComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/TestASTComparator.java
+END
+List_Different_CompilationError_After_Refactor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/List_Different_CompilationError_After_Refactor.java
+END
+ExtractJavaCodeToyExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/ExtractJavaCodeToyExample.java
+END
+ASTComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/ASTComparator.java
+END
+TestJDollyContainsUdita.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/TestJDollyContainsUdita.java
+END
+MotivatingUditaSimetry.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/MotivatingUditaSimetry.java
+END
+TestMJDollySimetry.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/TestMJDollySimetry.java
+END
+Compile.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/util/Compile.java
+END

@@ -1,0 +1,21 @@
+source.. = src/,\
+           lib/
+\
+           lib/
+output.. = bin/
+bin.includes = META-INF/,\
+               .,\
+               lib/jdolly.jar,\
+               lib/TestOrrery.jar,\
+               plugin.xml,\
+               lib/rtstubs15.jar,\
+               plugin.properties,\
+               lib/randoopAJ5.jar,\
+               lib/alloy4.jar,\
+               lib/asm-4.0.jar,\
+               lib/javaparser-1.0.8.jar,\
+               lib/jdom-1.1.3.jar,\
+                lib/br.edu.ufcg.saferefactor.jar,\
+                lib/jrrt.jar,\
+               bin/saferefactor/
+src.includes = lib/

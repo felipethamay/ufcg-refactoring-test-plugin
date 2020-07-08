@@ -1,0 +1,66 @@
+<project name="RefactoringTestPlugin" default="build-dependencies" basedir=".">	
+	
+	<!-- build properties -->
+	<buildnumber file="build.number" />
+	<property name="version.number" value="0.1.${build.number}" />		
+	<property name="package-name" value="edu.uiuc.astgen" />
+	
+	<!-- input directories -->
+	<property name="src-dir" location="src" />
+	<property name="lib-dir" location="lib" />
+	<property name="ant-dir" location="ant" />
+	<property name="jdolly-project" location="../jdolly" />
+	<property name="jdolly-dist-dir" location="../jdolly/dist" />
+	<property name="saferefactor-project" location="../saferefactor" />
+	<property name="saferefactor-dist-dir" location="../saferefactor/dist" />
+	<property name="saferefactor-ant-dir" location="../saferefactor/ant" />
+	
+	<!-- output directories -->
+	<property name="build-dir" location="bin" />
+	<property name="dist-dir"  location="dist" />
+
+	<target name="init">
+		<tstamp/>	
+		<mkdir dir="${build-dir}"/>
+	</target>	
+
+	<target name="build-dependencies" depends="init, build-jdolly, build-saferefactor">
+	</target>
+	
+	<target name="build-jdolly">
+		<description>Builds jdolly</description>
+		<ant dir="${jdolly-project}" antfile="build.xml" inheritall="false" />
+		<copy todir="${lib-dir}">
+			<fileset 
+				dir="${jdolly-dist-dir}" 
+				includes="edu.uiuc.astgen*.jar, TestOrrery*.jar"
+				excludes="*src.jar" />
+			<!-- strips version number off of jars -->
+			<mapper type="regexp" from="([^_]+)_.+\.jar" to="\1.jar" />
+		</copy>
+	</target>
+	
+	<target name="build-saferefactor">
+			<description>Builds saferefactor</description>
+			<ant dir="${saferefactor-project}" antfile="build.xml" inheritall="false" />
+			<copy todir="${lib-dir}">
+				<fileset 
+					dir="${saferefactor-dist-dir}" 
+					includes="br.edu.ufcg.saferefactor*.jar"
+					excludes="*src.jar" />
+				<!-- strips version number off of jars -->
+				<mapper type="regexp" from="([^_]+)_.+\.jar" to="\1.jar" />
+			</copy>
+		     <copy todir="ant">
+						<fileset 
+							dir="${saferefactor-ant-dir}" 
+							includes="build.xml"
+							/>						
+			</copy>
+		</target>
+
+	<target name="clean">
+		<delete dir="${build-dir}"/>
+		<delete dir="${dist-dir}"/>
+	</target>
+</project>

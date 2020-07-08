@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin
+END
+TestLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1212/source/RefactoringTestPluginSafira/src/refactoringtestplugin/TestLogger.java
+END
+RefactoringTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1212/source/RefactoringTestPluginSafira/src/refactoringtestplugin/RefactoringTest.java
+END
+SaferefactorPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/SaferefactorPlugin.java
+END
+SafeRefactorLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/SafeRefactorLogger.java
+END
+Activator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/Activator.java
+END
+ProblemReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/ProblemReport.java
+END
+MainRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1027/source/RefactoringTestPluginSafira/src/refactoringtestplugin/MainRunner.java
+END

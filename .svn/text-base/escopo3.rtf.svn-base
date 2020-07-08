@@ -1,0 +1,125 @@
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1
+interface Node_2
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1
+class Node_2
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1
+interface Node_2 extends Node_0,Node_1
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1
+class Node_2 implements Node_0,Node_1
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+interface Node_2
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+class Node_2
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+class Node_1 implements Node_0
+interface Node_2
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+class Node_1 implements Node_0
+class Node_2
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+interface Node_2 extends Node_0
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+class Node_2 implements Node_0
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+class Node_1 implements Node_0
+interface Node_2 extends Node_0
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+class Node_1 implements Node_0
+class Node_2 implements Node_0
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+interface Node_2 extends Node_1
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+class Node_2 implements Node_1
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+class Node_1 implements Node_0
+class Node_2 extends Node_1
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+interface Node_2 extends Node_1,Node_0
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+interface Node_1 extends Node_0
+class Node_2 implements Node_1,Node_0
+==============================================
+
+==============================================
+Class interface hierarchy [3]:
+interface Node_0
+class Node_1 implements Node_0
+class Node_2 extends Node_1 implements Node_0
+==============================================

@@ -1,0 +1,16 @@
+source.. = src/,\
+           lib/
+\
+           lib/
+output.. = bin/
+bin.includes = META-INF/,\
+               .,\
+               lib/edu.uiuc.astgen.jar,\
+               lib/TestOrrery.jar,\
+               plugin.xml,\
+               lib/rtstubs15.jar,\
+               plugin.properties,\
+               lib/randoop.jar,\
+               lib/alloy4.jar,\
+               lib/asm-4.0.jar
+src.includes = lib/

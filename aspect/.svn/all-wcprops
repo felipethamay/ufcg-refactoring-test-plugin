@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1279/source/safeRefactorImpact_v1.1/aspect
+END
+myAspectSource.lst
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1279/source/safeRefactorImpact_v1.1/aspect/myAspectSource.lst
+END
+Aspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1281/source/safeRefactorImpact_v1.1/aspect/Aspect.aj
+END
+aspect.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1279/source/safeRefactorImpact_v1.1/aspect/aspect.properties
+END
+AspectT.aj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1281/source/safeRefactorImpact_v1.1/aspect/AspectT.aj
+END
+myAspectTarget.lst
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1279/source/safeRefactorImpact_v1.1/aspect/myAspectTarget.lst
+END

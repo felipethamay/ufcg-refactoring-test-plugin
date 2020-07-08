@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<project default="compile">
+<property environment="env"/>
+<!-- Configurar as linhas abaixo -->
+<property name="JAVA_HOME" value="C:/Program Files/Java/jdk1.8.0_241/bin/javac"/>
+<property name="package" value="RefactoringTestPluginASM.jar" />
+<!-- Libs do classpath do arquivo MANIFEST.MF -->
+<property name="libs" value=" ./lib/org.osgi.framework-1.9.0.jar ./lib/jdom-1.1.3.jar ./lib/jrrt.jar ./lib/junit-4.5.jar ./lib/log4j-1.2.9.jar ./lib/plume.jar ./lib/plume-lib-1.0.3.jar ./lib/randoop.jar ./lib/randoopAJ5.jar ./lib/randoopAJnew.jar ./lib/rtstubs15.jar ./lib/saferefactorimpact.jar ./lib/saferefactorimpact_fat.jar ./lib/TestOrrery.jar ./lib/tools.jar ./lib/alloy4.jar ./lib/alloy4-mem_leak_free.jar ./lib/ant.jar ./lib/ant-junit.jar ./lib/ant-launcher.jar ./lib/asm-3.0.jar ./lib/asm-4.0.jar ./lib/asm-5.1.jar ./lib/asm-6.0_ALPHA.jar ./lib/asm-tree-3.0.jar ./lib/aspectjtools.jar ./lib/br.edu.ufcg.saferefactor.jar ./lib/br.edu.ufcg.saferefactor_0.2.204.jar ./lib/ci_noLeak.jar ./lib/cobertura.jar ./lib/edu.uiuc.astgen.jar ./lib/emma.jar ./lib/emma_ant.jar ./lib/jakarta-oro-2.0.8.jar ./lib/javaparser-1.0.8.jar ./lib/jdolly.jar .eclipse/org.eclipse.jdt.core_3.21.0.v20200304-1404 .eclipse/org.eclipse.ant.core_3.5.700.v20191221-1203.jar .eclipse/org.eclipse.jdt.ui_3.13.52.v20180206-1848.jar .eclipse/org.eclipse.ltk.core.refactoring_3.10.400.v20200215-1156.jar .eclipse/org.eclipse.text-3.3.0.jar .eclipse/org.eclipse.jdt.core.manipulation_1.13.100.v20200224-2108.jar .eclipse/org.eclipse.ant.core_3.5.0.v20170509-2149.jar .eclipse/org.eclipse.ui.workbench-3.1.0.jar .eclipse/org.eclipse.jface_3.19.0.v20200218-1607.jar " />
+<property name="main_class" value="RefactoringTestPluginASM" />
+
+<!-- Classpath para compilacao das classes -->
+<path id="classpath">
+	<fileset dir="./lib">
+		<include name="**/org.osgi.framework-1.9.0.jar" />	
+		<include name="**/jdom-1.1.3.jar" />
+		<include name="**/jrrt.jar" />
+		<include name="**/junit-4.5.jar" />
+		<include name="**/log4j-1.2.9.jar" />
+		<include name="**/plume.jar" />
+		<include name="**/plume-lib-1.0.3.jar" />
+		<include name="**/randoop.jar" />
+		<include name="**/randoopAJ5.jar" />
+		<include name="**/randoopAJnew.jar" />
+		<include name="**/rtstubs15.jar" />
+		<include name="**/saferefactorimpact.jar" />
+		<include name="**/saferefactorimpact_fat.jar" />
+		<include name="**/TestOrrery.jar" />
+		<include name="**/tools.jar" />
+		<include name="**/alloy4.jar" />
+		<include name="**/alloy4-mem_leak_free.jar" />
+		<include name="**/ant.jar" />
+		<include name="**/ant-junit.jar" />
+		<include name="**/ant-launcher.jar" />
+		<include name="**/asm-5.1.jar" />
+		<include name="**/asm-tree-3.0.jar" />
+		<!-- <include name="**/aspectjrt.jar" /> -->
+		<include name="**/aspectjtools.jar" />
+		<include name="**/br.edu.ufcg.saferefactor.jar" />
+		<include name="**/br.edu.ufcg.saferefactor_0.2.204.jar" />
+		<include name="**/ci_noLeak.jar" />
+		<include name="**/cobertura.jar" />
+		<include name="**/edu.uiuc.astgen.jar" />
+		<include name="**/emma.jar" />
+		<include name="**/emma_ant.jar" />
+		<include name="**/jakarta-oro-2.0.8.jar" />
+		<include name="**/javaparser-1.0.8.jar" />
+		<include name="**/jdolly.jar" />
+		<include name="**/eclipse/org.eclipse.jdt.core_3.21.0.v20200304-1404.jar" />
+		<include name="**/eclipse/org.eclipse.ant.core_3.5.700.v20191221-1203.jar" />
+		<include name="**/eclipse/org.eclipse.jdt.ui_3.13.52.v20180206-1848.jar" />
+		<include name="**/eclipse/org.eclipse.ltk.core.refactoring_3.10.400.v20200215-1156.jar" />
+		<include name="**/eclipse/org.eclipse.text-3.3.0.jar" />
+		<include name="**/eclipse/org.eclipse.jdt.core.manipulation_1.13.100.v20200224-2108.jar" />
+		<include name="**/eclipse/org.eclipse.ant.core_3.5.0.v20170509-2149.jar" />
+		<include name="**/eclipse/org.eclipse.ui.workbench-3.1.0.jar" />
+		<include name="**/eclipse/org.eclipse.jface_3.19.0.v20200218-1607.jar" />
+    </fileset>
+</path>
+
+
+<!-- AS LINHAS ABAIXO NAO DEVEM SER ALTERADAS -->
+
+
+<!-- Mostra o help -->
+      <target name="help">
+            <echo message="Utilize as opcoes abaixo para compilacao:" />
+            <echo message="" />
+            <echo message="clean   - Remove pacote JAR antigo" />
+            <echo message="compile - Gerador do pacote JAR" />
+      </target>
+
+<!-- Remove o build anterior -->
+      <target name="clean">
+            <delete file="./bin/${package}" />
+      </target>
+
+<!-- compile: Geracao do pacote .JAR -->
+      <target name="compile" depends="clean">
+
+    <!-- Adiciona version no sistema -->
+    		<!-- <tstamp>
+                  <format property="touch_time" pattern="dd/MM/yyyy hh:mm aa" />
+            </tstamp>
+            <copy file="./${version_java}" todir="./classes" overwrite="true" />
+            <replace file="./${version_java}" token="SEM ANT SCRIPT" value="${touch_time}" /> -->
+
+    <!-- Criacao da estrutura de diretorios -->
+        <mkdir dir="./bin" />
+        <mkdir dir="./classes" />
+
+    <!-- Compilando as classes -->
+        <javac destdir="./classes" debug="true" includeantruntime="false" target="1.8" compiler="javac1.8" source="1.8" executable="${JAVA_HOME}" fork="true" taskname="javac1.8">
+          <src path="./src" />
+            <classpath refid="classpath" />
+        </javac>
+
+    <!-- Apaga arquivo Version.java para que este nao seja colocado no .JAR -->
+    <!-- <copy file="./classes/Version.java" tofile="./${version_java}" overwrite="true" />
+    <delete file="./classes/Version.java" /> -->
+
+    <!-- Geracao do pacote .JAR -->
+    <jar jarfile="./bin/${package}">
+      <manifest id="MANIFEST.MF">
+            <attribute name="Class-Path" value="${libs}" />
+            <attribute name="Main-Class" value="${main_class}" />
+      </manifest>
+      <fileset dir="./classes" />
+    </jar>
+
+    <!-- Remove diretorio temporario das classes -->
+        <!--<delete dir="./classes" /> -->
+      </target>
+
+</project>

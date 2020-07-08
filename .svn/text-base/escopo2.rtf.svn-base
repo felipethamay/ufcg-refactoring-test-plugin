@@ -1,0 +1,23 @@
+==============================================
+Class interface hierarchy [Node_2]:
+interface Node_0
+interface Node_1
+==============================================
+
+==============================================
+Class interface hierarchy [Node_2]:
+interface Node_0
+class Node_1
+==============================================
+
+==============================================
+Class interface hierarchy [Node_2]:
+interface Node_0
+interface Node_1 extends Node_0
+==============================================
+
+==============================================
+Class interface hierarchy [Node_2]:
+interface Node_0
+class Node_1 implements Node_0
+==============================================
