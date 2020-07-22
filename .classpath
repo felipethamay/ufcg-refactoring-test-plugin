@@ -26,11 +26,11 @@
 	<classpathentry kind="src" path="asm"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="var" path="JDK_TOOLS"/>
-	<classpathentry kind="lib" path="C:/Users/gustavo.amorim/Documents/docs_temp/git/RefactoringTestPluginASM/lib/eclipse/org.eclipse.ant.core_3.5.0.v20170509-2149.jar"/>
-	<classpathentry kind="lib" path="C:/Users/gustavo.amorim/Documents/docs_temp/git/RefactoringTestPluginASM/lib/eclipse/org.eclipse.jdt.core.manipulation_1.13.100.v20200224-2108.jar"/>
-	<classpathentry kind="lib" path="C:/Users/gustavo.amorim/Documents/docs_temp/git/RefactoringTestPluginASM/lib/eclipse/org.eclipse.jdt.core_3.21.0.v20200304-1404.jar"/>
-	<classpathentry kind="lib" path="C:/Users/gustavo.amorim/Documents/docs_temp/git/RefactoringTestPluginASM/lib/eclipse/org.eclipse.jdt.ui_3.13.52.v20180206-1848.jar"/>
-	<classpathentry kind="lib" path="C:/Users/gustavo.amorim/Documents/docs_temp/git/RefactoringTestPluginASM/lib/eclipse/org.eclipse.ltk.core.refactoring_3.10.400.v20200215-1156.jar"/>
-	<classpathentry kind="lib" path="C:/Users/gustavo.amorim/Documents/docs_temp/git/RefactoringTestPluginASM/lib/eclipse/org.eclipse.text-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Felipe/Documents/Projects/Java/RefactoringTestPluginASM/lib/eclipse/org.eclipse.ant.core_3.5.0.v20170509-2149.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Felipe/Documents/Projects/Java/RefactoringTestPluginASM/lib/eclipse/org.eclipse.jdt.core.manipulation_1.13.100.v20200224-2108.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Felipe/Documents/Projects/Java/RefactoringTestPluginASM/lib/eclipse/org.eclipse.jdt.core_3.21.0.v20200304-1404.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Felipe/Documents/Projects/Java/RefactoringTestPluginASM/lib/eclipse/org.eclipse.jdt.ui_3.13.52.v20180206-1848.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Felipe/Documents/Projects/Java/RefactoringTestPluginASM/lib/eclipse/org.eclipse.ltk.core.refactoring_3.10.400.v20200215-1156.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Felipe/Documents/Projects/Java/RefactoringTestPluginASM/lib/eclipse/org.eclipse.text-3.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

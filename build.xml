@@ -7,7 +7,51 @@
 <property name="JAVA_HOME" value="C:/Program Files/Java/jdk1.8.0_241/bin/javac"/>
 <property name="package" value="RefactoringTestPluginASM.jar" />
 <!-- Libs do classpath do arquivo MANIFEST.MF -->
-<property name="libs" value=" ./lib/org.osgi.framework-1.9.0.jar ./lib/jdom-1.1.3.jar ./lib/jrrt.jar ./lib/junit-4.5.jar ./lib/log4j-1.2.9.jar ./lib/plume.jar ./lib/plume-lib-1.0.3.jar ./lib/randoop.jar ./lib/randoopAJ5.jar ./lib/randoopAJnew.jar ./lib/rtstubs15.jar ./lib/saferefactorimpact.jar ./lib/saferefactorimpact_fat.jar ./lib/TestOrrery.jar ./lib/tools.jar ./lib/alloy4.jar ./lib/alloy4-mem_leak_free.jar ./lib/ant.jar ./lib/ant-junit.jar ./lib/ant-launcher.jar ./lib/asm-3.0.jar ./lib/asm-4.0.jar ./lib/asm-5.1.jar ./lib/asm-6.0_ALPHA.jar ./lib/asm-tree-3.0.jar ./lib/aspectjtools.jar ./lib/br.edu.ufcg.saferefactor.jar ./lib/br.edu.ufcg.saferefactor_0.2.204.jar ./lib/ci_noLeak.jar ./lib/cobertura.jar ./lib/edu.uiuc.astgen.jar ./lib/emma.jar ./lib/emma_ant.jar ./lib/jakarta-oro-2.0.8.jar ./lib/javaparser-1.0.8.jar ./lib/jdolly.jar .eclipse/org.eclipse.jdt.core_3.21.0.v20200304-1404 .eclipse/org.eclipse.ant.core_3.5.700.v20191221-1203.jar .eclipse/org.eclipse.jdt.ui_3.13.52.v20180206-1848.jar .eclipse/org.eclipse.ltk.core.refactoring_3.10.400.v20200215-1156.jar .eclipse/org.eclipse.text-3.3.0.jar .eclipse/org.eclipse.jdt.core.manipulation_1.13.100.v20200224-2108.jar .eclipse/org.eclipse.ant.core_3.5.0.v20170509-2149.jar .eclipse/org.eclipse.ui.workbench-3.1.0.jar .eclipse/org.eclipse.jface_3.19.0.v20200218-1607.jar " />
+<property name="libs" value=" 
+	./lib/org.osgi.framework-1.9.0.jar 
+	./lib/jdom-1.1.3.jar 
+	./lib/jrrt.jar 
+	./lib/junit-4.5.jar 
+	./lib/log4j-1.2.9.jar 
+	./lib/plume.jar 
+	./lib/plume-lib-1.0.3.jar 
+	./lib/randoop.jar 
+	./lib/randoopAJ5.jar 
+	./lib/randoopAJnew.jar 
+	./lib/rtstubs15.jar 
+	./lib/saferefactorimpact.jar 
+	./lib/saferefactorimpact_fat.jar 
+	./lib/TestOrrery.jar 
+	./lib/tools.jar 
+	./lib/alloy4.jar 
+	./lib/alloy4-mem_leak_free.jar 
+	./lib/ant.jar 
+	./lib/ant-junit.jar 
+	./lib/ant-launcher.jar 
+	./lib/asm-3.0.jar 
+	./lib/asm-4.0.jar 
+	./lib/asm-5.1.jar 
+	./lib/asm-6.0_ALPHA.jar 
+	./lib/asm-tree-3.0.jar 
+	./lib/aspectjtools.jar 
+	./lib/br.edu.ufcg.saferefactor.jar 
+	./lib/br.edu.ufcg.saferefactor_0.2.204.jar ./lib/ci_noLeak.jar 
+	./lib/cobertura.jar 
+	./lib/edu.uiuc.astgen.jar 
+	./lib/emma.jar 
+	./lib/emma_ant.jar 
+	./lib/jakarta-oro-2.0.8.jar 
+	./lib/javaparser-1.0.8.jar 
+	./lib/jdolly.jar 
+	.eclipse/org.eclipse.jdt.core_3.21.0.v20200304-1404 
+	.eclipse/org.eclipse.ant.core_3.5.700.v20191221-1203.jar 
+	.eclipse/org.eclipse.jdt.ui_3.13.52.v20180206-1848.jar 
+	.eclipse/org.eclipse.ltk.core.refactoring_3.10.400.v20200215-1156.jar 
+	.eclipse/org.eclipse.text-3.3.0.jar 
+	.eclipse/org.eclipse.jdt.core.manipulation_1.13.100.v20200224-2108.jar 
+	.eclipse/org.eclipse.ant.core_3.5.0.v20170509-2149.jar 
+	.eclipse/org.eclipse.ui.workbench-3.1.0.jar 
+	.eclipse/org.eclipse.jface_3.19.0.v20200218-1607.jar " />
 <property name="main_class" value="RefactoringTestPluginASM" />
 
 <!-- Classpath para compilacao das classes -->
